@@ -1,4 +1,3 @@
-/* Basic page styling */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,7 +6,6 @@ body {
     line-height: 1.6;
 }
 
-/* Header */
 header {
     background-color: #17334a;
     color: white;
@@ -19,7 +17,6 @@ header h1 {
     margin: 0 0 15px;
 }
 
-/* Navigation */
 nav a {
     color: white;
     text-decoration: none;
@@ -31,14 +28,12 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* Main content */
 main {
     max-width: 900px;
     margin: 30px auto;
     padding: 20px;
 }
 
-/* Headings */
 h2 {
     color: #17334a;
     margin-top: 25px;
@@ -48,12 +43,10 @@ h3 {
     color: #17334a;
 }
 
-/* Paragraphs */
 p {
     font-size: 16px;
 }
 
-/* Lists */
 ul {
     background-color: white;
     padding: 20px 40px;
@@ -64,7 +57,6 @@ li {
     margin: 8px 0;
 }
 
-/* Project sections */
 section {
     background-color: white;
     padding: 20px;
@@ -73,12 +65,40 @@ section {
     border-left: 5px solid #17334a;
 }
 
-/* Links */
-a {
-    color: #17334a;
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
 }
 
-/* Footer */
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #17334a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #24516f;
+}
+
 footer {
     background-color: #17334a;
     color: white;
@@ -87,7 +107,6 @@ footer {
     margin-top: 40px;
 }
 
-/* Mobile */
 @media (max-width: 600px) {
 
     header {
