@@ -1,0 +1,106 @@
+/* Basic page styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f6f8;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #17334a;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0 0 15px;
+}
+
+/* Navigation */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main content */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+/* Headings */
+h2 {
+    color: #17334a;
+    margin-top: 25px;
+}
+
+h3 {
+    color: #17334a;
+}
+
+/* Paragraphs */
+p {
+    font-size: 16px;
+}
+
+/* Lists */
+ul {
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 8px;
+}
+
+li {
+    margin: 8px 0;
+}
+
+/* Project sections */
+section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    border-left: 5px solid #17334a;
+}
+
+/* Links */
+a {
+    color: #17334a;
+}
+
+/* Footer */
+footer {
+    background-color: #17334a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+
+    header {
+        padding: 20px 10px;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
+
+    main {
+        margin: 10px;
+        padding: 15px;
+    }
+}
