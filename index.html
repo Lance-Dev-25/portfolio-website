@@ -3,50 +3,462 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Lance's Portfolio</title>
+
+    <meta
+        name="description"
+        content="Lance Kipchirchir — Software Developer building modern web applications and exploring full-stack development."
+    >
+
+    <title>Lance Kipchirchir | Software Developer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
-    <h1>MY PORTFOLIO</h1>
+<header class="site-header">
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="projects.html">Projects</a>
-        <a href="contact.html">Contact</a>
-    </nav>
+    <div class="nav-container">
+
+        <a href="index.html" class="logo">
+            LANCE<span>.</span>
+        </a>
+
+        <nav class="navigation">
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <a href="contact.html" class="nav-button">
+            Let's Talk
+        </a>
+
+    </div>
+
 </header>
 
+
 <main>
-    <h2>Welcome to My Portfolio</h2>
 
-    <p>
-        Hello! I'm Lance, a beginner software developer learning
-        web development and full-stack development.
-    </p>
+    <!-- HERO SECTION -->
 
-    <p>
-        I enjoy building websites, learning new technologies and
-        turning ideas into working applications.
-    </p>
+    <section class="hero">
 
-    <h2>What I'm Learning</h2>
+        <div class="hero-content">
 
-    <ul>
-        <li>Frontend Development</li>
-        <li>Backend Development</li>
-        <li>Databases</li>
-        <li>APIs</li>
-        <li>Git and GitHub</li>
-        <li>Deployment</li>
-    </ul>
+            <p class="eyebrow">
+                SOFTWARE DEVELOPER • KENYA
+            </p>
+
+            <h1>
+                I build ideas into
+                <span>real digital experiences.</span>
+            </h1>
+
+            <p class="hero-description">
+                I'm Lance Kipchirchir, a software developer focused on
+                web development and full-stack applications. I enjoy
+                turning ideas into useful, functional and modern products.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="projects.html" class="primary-button">
+                    View My Work
+                    <span>→</span>
+                </a>
+
+                <a href="about.html" class="secondary-button">
+                    More About Me
+                </a>
+
+            </div>
+
+            <div class="availability">
+                <span class="status-dot"></span>
+                Currently learning & building
+            </div>
+
+        </div>
+
+
+        <!-- CODE WINDOW -->
+
+        <div class="hero-card">
+
+            <div class="code-window">
+
+                <div class="window-top">
+
+                    <div class="window-dots">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <p>developer.js</p>
+
+                </div>
+
+
+                <div class="code">
+
+                    <p>
+                        <span class="purple">const</span>
+                        developer =
+                        <span class="yellow">{</span>
+                    </p>
+
+                    <p class="indent">
+                        name:
+                        <span class="green">'Lance'</span>,
+                    </p>
+
+                    <p class="indent">
+                        role:
+                        <span class="green">'Software Developer'</span>,
+                    </p>
+
+                    <p class="indent">
+                        skills:
+                        <span class="yellow">[</span>
+                    </p>
+
+                    <p class="indent-more">
+                        <span class="green">'HTML'</span>,
+                    </p>
+
+                    <p class="indent-more">
+                        <span class="green">'CSS'</span>,
+                    </p>
+
+                    <p class="indent-more">
+                        <span class="green">'JavaScript'</span>,
+                    </p>
+
+                    <p class="indent-more">
+                        <span class="green">'React'</span>,
+                    </p>
+
+                    <p class="indent-more">
+                        <span class="green">'Node.js'</span>
+                    </p>
+
+                    <p class="indent">
+                        <span class="yellow">]</span>
+                    </p>
+
+                    <p>
+                        <span class="yellow">}</span>
+                    </p>
+
+                    <p class="cursor-line">
+                        <span class="cursor"></span>
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- INTRO -->
+
+    <section class="intro-section">
+
+        <div class="section-label">
+            01 — INTRO
+        </div>
+
+        <div class="intro-content">
+
+            <h2>
+                Curious about how things work.
+                <span>Driven to build them.</span>
+            </h2>
+
+            <p>
+                I'm currently developing my skills across frontend,
+                backend and full-stack development. My goal isn't just
+                to learn how to write code — it's to understand how
+                technology can be used to solve real problems.
+            </p>
+
+            <a href="about.html" class="text-link">
+                Discover my journey →
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- SKILLS -->
+
+    <section class="skills-section">
+
+        <div class="section-heading">
+
+            <div>
+
+                <p class="section-label">
+                    02 — WHAT I DO
+                </p>
+
+                <h2>
+                    Building across the stack.
+                </h2>
+
+            </div>
+
+            <p>
+                The technologies and concepts I'm currently
+                working with.
+            </p>
+
+        </div>
+
+
+        <div class="skills-grid">
+
+            <article class="skill-card">
+
+                <span class="skill-number">01</span>
+
+                <h3>Frontend</h3>
+
+                <p>
+                    Creating responsive interfaces with clean
+                    structure, thoughtful layouts and modern
+                    web technologies.
+                </p>
+
+                <div class="skill-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>React</span>
+                </div>
+
+            </article>
+
+
+            <article class="skill-card">
+
+                <span class="skill-number">02</span>
+
+                <h3>Backend</h3>
+
+                <p>
+                    Building APIs and server-side applications
+                    that allow different parts of a product
+                    to communicate.
+                </p>
+
+                <div class="skill-tags">
+                    <span>Node.js</span>
+                    <span>Express</span>
+                    <span>REST APIs</span>
+                </div>
+
+            </article>
+
+
+            <article class="skill-card">
+
+                <span class="skill-number">03</span>
+
+                <h3>Data & Deployment</h3>
+
+                <p>
+                    Learning how applications store information
+                    and how full-stack projects move from local
+                    development into production.
+                </p>
+
+                <div class="skill-tags">
+                    <span>MongoDB</span>
+                    <span>Git</span>
+                    <span>GitHub</span>
+                    <span>Vercel</span>
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- FEATURED PROJECT -->
+
+    <section class="featured-project">
+
+        <div class="section-label">
+            03 — FEATURED PROJECT
+        </div>
+
+
+        <div class="project-preview">
+
+            <div class="project-info">
+
+                <p class="project-type">
+                    FULL-STACK APPLICATION
+                </p>
+
+                <h2>
+                    CommunityHub
+                </h2>
+
+                <p>
+                    A community platform designed to bring people
+                    together through posts, conversations and
+                    shared ideas.
+                </p>
+
+                <div class="project-tech">
+                    <span>React</span>
+                    <span>Node.js</span>
+                    <span>Express</span>
+                    <span>MongoDB</span>
+                </div>
+
+                <a href="projects.html" class="primary-button">
+                    Explore Project
+                    <span>↗</span>
+                </a>
+
+            </div>
+
+
+            <div class="project-visual">
+
+                <div class="mini-browser">
+
+                    <div class="browser-bar">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+
+                    <div class="mock-content">
+
+                        <div class="mock-header">
+                            <strong>CommunityHub</strong>
+                            <small>CONNECT</small>
+                        </div>
+
+
+                        <div class="mock-post">
+
+                            <div class="mock-avatar">
+                                L
+                            </div>
+
+                            <div class="mock-lines">
+
+                                <strong>Lance</strong>
+
+                                <span></span>
+                                <span></span>
+                                <span></span>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="mock-actions">
+                            <span>♡ 24</span>
+                            <span>💬 8</span>
+                            <span>↗</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CALL TO ACTION -->
+
+    <section class="cta-section">
+
+        <p class="section-label">
+            HAVE AN IDEA?
+        </p>
+
+        <h2>
+            Let's build something
+            <span>worth clicking.</span>
+        </h2>
+
+        <p>
+            I'm always interested in learning, building and
+            exploring new ideas.
+        </p>
+
+        <a href="contact.html" class="primary-button">
+            Get In Touch
+            <span>→</span>
+        </a>
+
+    </section>
+
 </main>
 
-<footer>
-    <p>&copy; 2026 Lance Kipchirchir</p>
+
+<!-- FOOTER -->
+
+<footer class="site-footer">
+
+    <div>
+
+        <strong>
+            LANCE<span>.</span>
+        </strong>
+
+        <p>
+            Building. Learning. Improving.
+        </p>
+
+    </div>
+
+
+    <div class="footer-links">
+
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+
+    </div>
+
+
+    <p class="copyright">
+        © 2026 Lance Kipchirchir
+    </p>
+
 </footer>
 
 </body>
