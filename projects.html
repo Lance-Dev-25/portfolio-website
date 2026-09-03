@@ -3,78 +3,256 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects | Lance's Portfolio</title>
+
+    <meta
+        name="description"
+        content="Projects built by Lance Kipchirchir."
+    >
+
+    <title>Projects | Lance Kipchirchir</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
-    <h1>My Projects</h1>
+<header class="site-header">
+    <div class="nav-container">
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="projects.html">Projects</a>
-        <a href="contact.html">Contact</a>
-    </nav>
+        <a href="index.html" class="logo">
+            LANCE<span>.</span>
+        </a>
+
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html" class="active">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <a href="contact.html" class="nav-button">
+            Let's Talk
+        </a>
+
+    </div>
 </header>
+
 
 <main>
 
-    <h2>My Projects</h2>
+    <section class="page-hero">
 
-    <section>
-        <h3>CommunityHub</h3>
+        <p class="eyebrow">SELECTED WORK — 02</p>
 
-        <p>
-            A full-stack community posting application where users
-            can create and view posts.
+        <h1>
+            Things I've
+            <span>built.</span>
+        </h1>
+
+        <p class="hero-description">
+            A collection of projects that represent what
+            I've been learning, experimenting with and building.
         </p>
 
-        <p>
-            Built using React, Node.js, Express, MongoDB Atlas
-            and Mongoose.
-        </p>
-
-        <p>
-            <strong>Skills used:</strong>
-            React, JavaScript, Express, MongoDB, GitHub and APIs.
-        </p>
     </section>
 
-    <section>
-        <h3>Portfolio Website</h3>
 
-        <p>
-            A personal multi-page website created to showcase
-            my skills, projects and learning progress.
-        </p>
+    <section class="projects-section">
 
-        <p>
-            <strong>Skills used:</strong>
-            HTML, CSS, JavaScript and GitHub.
-        </p>
+        <div class="section-label">
+            01 — FEATURED PROJECT
+        </div>
+
+        <article class="featured-project">
+
+            <div class="project-info">
+
+                <span class="project-number">01</span>
+
+                <h2>CommunityHub</h2>
+
+                <p>
+                    A full-stack community platform where users
+                    can create and view posts through a real
+                    frontend, backend API and database.
+                </p>
+
+                <div class="skill-tags">
+                    <span>React</span>
+                    <span>Node.js</span>
+                    <span>Express</span>
+                    <span>MongoDB</span>
+                    <span>REST API</span>
+                </div>
+
+                <a
+                    href="https://communityhub-app.vercel.app/"
+                    target="_blank"
+                    rel="noopener"
+                    class="text-link"
+                >
+                    View CommunityHub →
+                </a>
+
+            </div>
+
+            <div class="project-visual">
+
+                <div class="mock-browser">
+
+                    <div class="browser-bar">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <div class="mock-content">
+
+                        <p class="mock-label">
+                            COMMUNITYHUB
+                        </p>
+
+                        <h3>
+                            Share. Connect.
+                            <br>
+                            Build together.
+                        </h3>
+
+                        <p>
+                            A community platform powered
+                            by a real backend API.
+                        </p>
+
+                        <div class="mock-actions">
+                            <span>♡ 24</span>
+                            <span>💬 8</span>
+                            <span>↗</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </article>
+
     </section>
 
-    <section>
-        <h3>JavaScript Practice</h3>
 
-        <p>
-            Small JavaScript exercises including conditions,
-            variables, functions and user input.
+    <section class="projects-list">
+
+        <div class="section-label">
+            02 — OTHER WORK
+        </div>
+
+
+        <article class="project-row">
+
+            <span>02</span>
+
+            <div>
+                <h2>Portfolio Website</h2>
+
+                <p>
+                    My personal multi-page portfolio created
+                    to document my development journey and
+                    showcase my work.
+                </p>
+            </div>
+
+            <div class="skill-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>GitHub</span>
+            </div>
+
+        </article>
+
+
+        <article class="project-row">
+
+            <span>03</span>
+
+            <div>
+                <h2>JavaScript Practice</h2>
+
+                <p>
+                    Small projects and exercises focused on
+                    variables, conditions, functions and
+                    user input.
+                </p>
+            </div>
+
+            <div class="skill-tags">
+                <span>JavaScript</span>
+                <span>HTML</span>
+                <span>CSS</span>
+            </div>
+
+        </article>
+
+    </section>
+
+
+    <section class="cta-section">
+
+        <p class="section-label">
+            HAVE AN IDEA?
         </p>
 
+        <h2>
+            Let's build something
+            <span>worth clicking.</span>
+        </h2>
+
         <p>
-            <strong>Skills used:</strong>
-            JavaScript, HTML and CSS.
+            I'm always interested in learning,
+            building and exploring new ideas.
         </p>
+
+        <a href="contact.html" class="primary-button">
+            Get In Touch
+            <span>→</span>
+        </a>
+
     </section>
 
 </main>
 
-<footer>
-    <p>&copy; 2026 Lance Kipchirchir</p>
+
+<footer class="site-footer">
+
+    <div>
+        <strong>
+            LANCE<span>.</span>
+        </strong>
+
+        <p>
+            Building. Learning. Improving.
+        </p>
+    </div>
+
+    <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <p class="copyright">
+        © 2026 Lance Kipchirchir
+    </p>
+
 </footer>
 
 </body>
